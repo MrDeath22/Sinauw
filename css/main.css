@@ -500,6 +500,30 @@ a {
    border-radius: 20px;
 }
 
+.last-span {
+   position: absolute;
+   top: 17px;
+   right: 1%;
+   font-size: 12px;
+   transform: rotate(40deg);
+   opacity: 0.8;
+}
+
+.price-li-last {
+   overflow: hidden;
+}
+
+.price-li-last::before {
+   position: absolute;
+   right: -41%;
+   width: 250px;
+   height: 250px;
+   display: inline-block;
+   content: "";
+   background-repeat: no-repeat;
+   background-image: url("../img/popular.svg");
+}
+
 .price-pricing {
    width: 300px;
    text-align: start;
